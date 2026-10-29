@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: public
+        group: DEFAULT_GROUP
+      config:
+        namespace: public
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        # Pulls config from Nacos: Data ID = nacos-provider.yaml

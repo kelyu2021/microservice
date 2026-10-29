@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+# Default greeting (can be overridden via Nacos config)
+greeting:
+  message: "Hello from Provider (local config)"

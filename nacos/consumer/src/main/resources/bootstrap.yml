@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: public
+        group: DEFAULT_GROUP
